@@ -126,12 +126,37 @@ nav ul li {
 
 /* banner styles */
 
+.banner{
+  display: flex;
+  justify-content: space-between;
+  background-color: #C6E4D6;
+  margin: 0 119.99px 0 119.99px;
+  border-radius: 24px;
+}
+
+.banner-content{
+  max-width: 622px;
+  padding: 100px;
+}
+
+
 .banner-title{
-color: #0E0E0E;
+font-weight: 600;
+font-size: 24px;
+color: #0e0e0e;
 opacity: 50% ;
 }
-.banner-description{
-  color: rgb(0, 0, 0);
+
+.banner-title-second{
+  font-weight: 800;
+  font-size: 56px;
+  color: black;
+}
+
+.banner-picture{
+  width: 474.03px;
+  height: 400px;
+  padding: 80px 100px;
 }
 
 /* button styles */

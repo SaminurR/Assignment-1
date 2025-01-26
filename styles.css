@@ -108,7 +108,11 @@
 }
 /* font end */
 
+/* body background */
 
+body{
+  background-color: #f8f4f4;
+}
 
 /* nav styles */
 
@@ -132,6 +136,7 @@ nav ul li {
   background-color: #C6E4D6;
   margin: 0 119.99px 0 119.99px;
   border-radius: 24px;
+  margin-bottom: 80px;
 }
 
 .banner-content{
@@ -201,3 +206,16 @@ opacity: 50% ;
   border-radius: 8px; 
   border: none;
 } */
+
+/* pillar container style */
+
+.pillar-container{
+  display: flex;
+  gap: 24px;
+}
+
+.pillar{
+  padding: 24px;
+  background-color: white;
+  border-radius: 16px;
+}

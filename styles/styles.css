@@ -297,6 +297,7 @@ opacity: 50% ;
 /* Table Style  */
 
 table{
+  /* All content center dosnt work! */
   justify-content: center;
   align-items: center;
   border-collapse: collapse;
@@ -423,6 +424,7 @@ margin-bottom: 32px;
   justify-content: center;  
   font-weight: 800;
   font-size: 40px;
+  
 }
 
 .donate-taka-section div:hover{
@@ -434,6 +436,7 @@ margin-bottom: 32px;
   padding: 40px;
   background-color: white;
   border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15)
 }
 
 .other-amount-container{

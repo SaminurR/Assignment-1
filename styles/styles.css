@@ -313,9 +313,11 @@ td{
 }
 
 .table-container{
+  /* All content center dosnt work! */
+justify-content: center;  
+align-items: center;
 background-color: white;
 padding: 32px;
-border-radius: 16px;
 border-radius: 16px;
 border-color: rgba(14, 14, 14, 0.15);
 }
